@@ -1,0 +1,41 @@
+{
+  "name": "ordered-promise-stream",
+  "version": "0.1.0",
+  "description": "Stream promise values, in order, as they resolve",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "jest": "^18.1.0",
+    "nodemon": "^1.11.0",
+    "standard": "^8.6.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timswalling/ordered-promise-stream.git"
+  },
+  "keywords": [
+    "promise",
+    "stream",
+    "async",
+    "api",
+    "order"
+  ],
+  "author": "Tim Swalling <tim@timswalling.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timswalling/ordered-promise-stream/issues"
+  },
+  "homepage": "https://github.com/timswalling/ordered-promise-stream#readme",
+  "jest": {
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>[/\\\\](dist|node_modules|scripts)[/\\\\]"
+    ]
+  }
+}
