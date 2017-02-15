@@ -30,6 +30,12 @@
     "url": "https://github.com/timswalling/ordered-promise-stream/issues"
   },
   "homepage": "https://github.com/timswalling/ordered-promise-stream#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devEngines" : {
+    "node": "4.x || 5.x || 6.x || 7.x"
+  },
   "jest": {
     "collectCoverageFrom": [
       "index.js"
